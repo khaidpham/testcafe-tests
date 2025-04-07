@@ -25,9 +25,6 @@ To get a list of available browsers on BrowserStack, run `testcafe -b browsersta
 
 `testcafe <browsers> <path to folder/file> <flags>`
 
-- use the configured browsers and src from [.testcaferc.json](https://bithub.brightcove.com/gallery/gallery-automation/blob/master/.testcaferc.json) to run tests from end2end folder on chrome\
-`testcafe`
-
 - run tests from end2end folder on 4 browsers\
 `testcafe chrome,firefox,edge,safari suites/app1/end2end --env=qa`
 
