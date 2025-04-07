@@ -11,7 +11,7 @@
     "test-app1": "testcafe chromium:headless suites/app1/end2end",
     "test-app2": "testcafe chromium:headless suites/app2/end2end",
     "create-app1-custom": "node scripts/generateCustomTest.js",
-    "test-app1_custom": "testcafe chromium:headless suites/app1/end2end_custom",
+    "test-app1_custom": "testcafe chromium:headless suites/app1/custom_end2end",
   },
   "dependencies": {
     "@example/eslint-config-webapp": "^3.0.0",
