@@ -9,13 +9,9 @@
   },
   "scripts": {
     "test-app1": "testcafe chromium:headless suites/app1/end2end",
-    "test-app3": "testcafe chromium:headless suites/app3",
-    "test-corptv": "testcafe chromium:headless suites/corptv",
+    "test-app2": "testcafe chromium:headless suites/app2/end2end",
     "create-app1-custom": "node scripts/generateCustomTest.js",
-    "test-app1-custom": "testcafe chromium:headless suites/app1/custom_end2end",
-    "test-inpage": "testcafe chromium:headless suites/app2/end2end",
-    "test-app3-app1": "testcafe chromium:headless suites/app3/app1",
-    "test-corptv-app1": "testcafe chromium:headless suites/corptv/app1"
+    "test-app1_custom": "testcafe chromium:headless suites/app1/end2end_custom",
   },
   "dependencies": {
     "@example/eslint-config-webapp": "^3.0.0",
