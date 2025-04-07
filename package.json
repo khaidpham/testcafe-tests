@@ -1,0 +1,39 @@
+{
+  "name": "@example/webapp-automation",
+  "version": "1.0.24",
+  "description": "webapp Automation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bithub.example.com/webapp/webapp-automation.git"
+  },
+  "scripts": {
+    "test-app1": "testcafe chromium:headless suites/app1/end2end",
+    "test-app3": "testcafe chromium:headless suites/app3",
+    "test-corptv": "testcafe chromium:headless suites/corptv",
+    "create-app1-custom": "node scripts/generateCustomTest.js",
+    "test-app1-custom": "testcafe chromium:headless suites/app1/custom_end2end",
+    "test-inpage": "testcafe chromium:headless suites/app2/end2end",
+    "test-app3-app1": "testcafe chromium:headless suites/app3/app1",
+    "test-corptv-app1": "testcafe chromium:headless suites/corptv/app1"
+  },
+  "dependencies": {
+    "@example/eslint-config-webapp": "^3.0.0",
+    "@example/-testcafe-common": "^1.6.36",
+    "csv-parser": "^3.0.0",
+    "minimist": "^1.2.6",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@khaipham/axe-testcafe": "^1.0.0",
+    "axe-core": "^4.8.2",
+    "eslint": "^8.7.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-react": "^7.28.0",
+    "lint-staged": "^12.2.2",
+    "testcafe": "^3.7.1",
+    "testcafe-browser-provider-browserstack": "^1.14.0",
+    "testcafe-react-selectors": "^4.1.5",
+    "testcafe-reporter-allure": "1.0.5"
+  }
+}
